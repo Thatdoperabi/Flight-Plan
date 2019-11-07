@@ -390,3 +390,10 @@ Load paths:
   
 app/assets/stylesheets/application.scss:15
 app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__280694457_109793460'
+Started GET "/schedule" for ::1 at 2019-11-05 20:59:46 -0600
+Processing by ScheduleController#index as HTML
+  Rendering schedule/index.html.erb within layouts/application
+  Rendered schedule/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 13096ms (Views: 12303.7ms)
+
+

@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2019-11-06
+  event: MyString
+  priority: 1
+  steps: 1
+  user_id: 1
+  client_id: 1
+  time: 2019-11-06 20:21:31
+
+two:
+  date: 2019-11-06
+  event: MyString
+  priority: 1
+  steps: 1
+  user_id: 1
+  client_id: 1
+  time: 2019-11-06 20:21:31
