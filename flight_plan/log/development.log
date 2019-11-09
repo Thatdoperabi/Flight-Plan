@@ -1677,3 +1677,30 @@ Migrating to CreateGroups (20191109233958)
   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
   [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
   [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/groups" for ::1 at 2019-11-09 17:42:37 -0600
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GroupsController#index as HTML
+  Rendering groups/index.html.erb
+  [1m[36mGroup Load (0.5ms)[0m  [1m[34mSELECT "groups".* FROM "groups"[0m
+  Rendered groups/index.html.erb (6.5ms)
+Completed 200 OK in 39ms (Views: 17.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/groups/new" for ::1 at 2019-11-09 17:42:41 -0600
+Processing by GroupsController#new as HTML
+  Rendering groups/new.html.erb
+  Rendered groups/_form.html.erb (124.4ms)
+  Rendered groups/new.html.erb (129.7ms)
+Completed 200 OK in 159ms (Views: 141.8ms | ActiveRecord: 5.2ms)
+
+
+Started POST "/groups" for ::1 at 2019-11-09 17:42:44 -0600
+Processing by GroupsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gNkuzXtcOQdHrSsn+/KjOZmDBKFsOEJimhZ2IbLps0jWnKGNJlIuDlygeYbOkUQzUrDSe41XomRgmFx52nmUeg==", "group"=>{"id"=>"", "name"=>"", "level"=>""}, "commit"=>"Create Group"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'name' for Group.):
+  
+app/controllers/groups_controller.rb:27:in `create'
