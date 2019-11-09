@@ -1514,3 +1514,19 @@ ActionView::Template::Error (undefined local variable or method `new_client_path
     29: <%= link_to 'New Client', new_client_path %>
   
 app/views/clients/index.html.erb:29:in `_app_views_clients_index_html_erb__141584303_74981860'
+Started GET "/clients" for ::1 at 2019-11-09 17:25:18 -0600
+Processing by ClientsController#index as HTML
+  Rendering clients/index.html.erb
+  [1m[36mClient Load (0.7ms)[0m  [1m[34mSELECT "clients".* FROM "clients"[0m
+  Rendered clients/index.html.erb (470.3ms)
+Completed 500 Internal Server Error in 489ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_client_path' for #<#<Class:0x0000000008f0f020>:0x00000000081425f0>):
+    26: 
+    27: <br>
+    28: 
+    29: <%= link_to 'New Client', new_client_path %>
+  
+app/views/clients/index.html.erb:29:in `_app_views_clients_index_html_erb__141584303_67732080'
