@@ -1730,3 +1730,50 @@ Processing by ScheduleController#index as HTML
 Completed 200 OK in 166ms (Views: 160.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/schedule" for ::1 at 2019-11-13 18:41:15 -0600
+Processing by ScheduleController#index as HTML
+  Rendering schedule/index.html.erb within layouts/application
+  Rendered schedule/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 147ms (Views: 139.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schedule" for ::1 at 2019-11-13 18:51:32 -0600
+Processing by ScheduleController#index as HTML
+  Rendering schedule/index.html.erb within layouts/application
+  Rendered schedule/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 172ms (Views: 165.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schedule" for ::1 at 2019-11-13 18:58:01 -0600
+Processing by ScheduleController#index as HTML
+  Rendering schedule/index.html.erb within layouts/application
+  Rendered schedule/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 618ms (Views: 610.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schedule" for ::1 at 2019-11-13 19:00:19 -0600
+Processing by ScheduleController#index as HTML
+  Rendering schedule/index.html.erb within layouts/application
+  Rendered schedule/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 228ms (Views: 222.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schedule" for ::1 at 2019-11-13 19:00:23 -0600
+Processing by ScheduleController#index as HTML
+  Rendering schedule/index.html.erb within layouts/application
+  Rendered schedule/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 145ms (Views: 138.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/schedule" for ::1 at 2019-11-13 19:01:07 -0600
+Processing by ScheduleController#index as HTML
+  Rendering schedule/index.html.erb within layouts/application
+  Rendered schedule/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 186ms (Views: 179.6ms | ActiveRecord: 0.0ms)
+
+
